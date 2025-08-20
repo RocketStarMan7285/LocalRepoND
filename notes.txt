@@ -9,11 +9,17 @@ git add <optional-filename or --all> - send a commit to the staging area
 OR:
     git reset HEAD <filename>
 
-git commit <optional-flag -a> -m "message" - commit staged changes with a message,
+git commit <optional-flag -a> -m "message" - commit staged changes with a message "message",
                                              skip staging with -a flag
 
 git log <optional-flag --oneline or --stat> - see commit history,
                                               shorter view with --oneline flag, 
                                               see which files changed in each commit with --stat flag
 
+git tag <optional-flag -a> <tagname> <optional-flag -m "message"> <optional commit-hash> - create a lightweight tag with only a tagname
+                                                                                           annotated tag with -a and -m flags
+                                                                                           provide commit-hash to tag a specific commit
+                                                                                    
+    NOTES ABOUT git tag:
+    annotated tags stores author, date, and message (recommended for sharing with others)                                                                                    
 
