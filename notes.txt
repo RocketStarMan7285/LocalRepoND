@@ -5,6 +5,10 @@ git status - check to see if Git is tracking a new file
 git add <optional-filename or --all> - send a commit to the staging area 
     IF YOU STAGE A FILE BY MISTAKE:
 
-git restore --staged <filename> 
+    git restore --staged <filename> 
 OR:
-git reset HEAD <filename>
+    git reset HEAD <filename>
+
+git commit <optional-flag -a> -m "message" - commit staged changes with a message, skip staging with -a flag
+
+
