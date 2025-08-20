@@ -9,6 +9,11 @@ git add <optional-filename or --all> - send a commit to the staging area
 OR:
     git reset HEAD <filename>
 
-git commit <optional-flag -a> -m "message" - commit staged changes with a message, skip staging with -a flag
+git commit <optional-flag -a> -m "message" - commit staged changes with a message,
+                                             skip staging with -a flag
+
+git log <optional-flag --oneline or --stat> - see commit history,
+                                              shorter view with --oneline flag, 
+                                              see which files changed in each commit with --stat flag
 
 
