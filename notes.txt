@@ -23,3 +23,6 @@ git tag <optional-flag -a> <tagname> <optional-flag -m "message"> <optional comm
     NOTES ABOUT git tag:
     annotated tags stores author, date, and message (recommended for sharing with others)                                                                                    
 
+git branch - see all git branches 
+
+git checkout <branchname> - switch to branch with branchname
