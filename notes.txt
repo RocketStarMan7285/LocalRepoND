@@ -26,3 +26,5 @@ git tag <optional-flag -a> <tagname> <optional-flag -m "message"> <optional comm
 git branch - see all git branches 
 
 git checkout <branchname> - switch to branch with branchname
+
+git merge <branchname> - merge branchname into current branch
