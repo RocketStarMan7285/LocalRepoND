@@ -28,3 +28,9 @@ git branch - see all git branches
 git checkout <branchname> - switch to branch with branchname
 
 git merge <branchname> - merge branchname into current branch
+
+git fetch - downloads new data from a remote repository, but does not change working files or branches
+
+git pull - combines fetch and merge, fetchs and merges changes from a remote repository
+
+git push - update local commits to a remote repository (git commit must be run first)
