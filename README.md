@@ -18,7 +18,7 @@ This started out as a local repository stored on my personal computer.
 # I made changes:
 Directly on GitHub: I run `git pull` to update my local repository (the one on my personal computer) 
 
-On my local machine: run `git push origin` to update the remote repository (this GitHub repository!)
+On my local machine: I run `git push origin` to update the remote repository (this GitHub repository!)
 
 **YOU MUST RUN THESE COMMANDS IN THE SAME DIRECTORY THAT THE REPOSITORY IS IN!!!**
 
