@@ -1,5 +1,5 @@
 # Description
-A personal tutorial repository (aka repo) to pratice git commands.
+A personal tutorial repository (aka repo) to practice git commands.
 
 But I might as well us this repo to pratice front-end development...
 
@@ -8,7 +8,11 @@ This started out as a local repository stored on my personal computer. As to how
   - Run the command `git init` to initialize a git repository
   - Make various commits to the local repo using `git add` then `git commit -m "some meaningful commit message would go here"`...
   - Run these commands:
-    - `git remote add origin https://github.com/<username>/<address.git>`: link the local project to a GitHub repo (`origin` is the default name for the main remote repo)
+    - `git remote add origin https://github.com/<username>/<address>.git`: link the local project to a GitHub repo (`origin` is the default name for the main remote repo).
+
+      In this case:
+      - `<username>` = RocketStarMan7285
+      - `<address>` = LocalRepoND
     - `git branch -M main`: `-M` option of `git branch` renames the current branch to `main` (the default branch name used by GitHub), regardless of what it was called before
     - `git push -u origin main`: pushes the **local** main branch to the remote repo (`origin`), the `-u` flag sets the upstream link between local and remote branches
 # Contents
